@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.main-left {
+    background-color: rgb(240, 167, 240);
+    width: 20%;
+}
+.main-right {
+    background-color: rgb(169, 252, 255);
+    width: 80%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: rgb(0, 75, 187);
+    color: white;
+    font-size: 25px;
+}
+footer {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 75, 187);
+    color: white;
+    font-size: 25px;
+}
+.mid {
+    display: flex;
+    height: 440px;
+}
+li {
+    list-style-type: none;
+    -webkit-transition: all 0.5s ease;;
+    -moz-transition: all 0.5s ease;;
+    -o-transition: all 0.5s ease;;
+    transition: all 0.5s ease;
+}
+li:hover {
+    color: rgb(255, 255, 255);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);                                                                        
+}
+img {
+    height: 200px;
+    width: 350px;
+    margin: 20px auto 0px; display:block;
+} 
+.articles {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text-right {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.f {
+    height: 120px;
+    width: 120px;
+    background-color: rgb(71, 181, 255);
+    transition: 1s;
+}
+.f1 {
+    height: 120px;
+    width: 120px;
+    background-color: rgb(71, 181, 255);
+    margin-left: 50px;
+    transition: 1s;
+}
+.f2 {
+    height: 120px;
+    width: 120px;
+    background-color: rgb(71, 181, 255);
+    margin-left: 50px;
+    transition: 1s;
+}
+.f:hover {
+    border-radius: 70%;
+    background-color: rgb(240, 167, 240);
+}
+.f1:hover {
+    border-radius: 70%;
+    background-color: rgb(240, 167, 240);
+}
+.f2:hover {
+    border-radius: 70%;
+    background-color: rgb(240, 167, 240);
+}
