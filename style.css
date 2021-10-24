@@ -32,6 +32,9 @@ footer {
     display: flex;
     height: 600px;
 }
+ul {
+    line-height: 3;
+}
 li {
     list-style-type: none;
     -webkit-transition: all 0.5s ease;;
