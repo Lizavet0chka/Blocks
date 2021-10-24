@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(0, 75, 187);
-    width: 100%;
 }
 .main-left {
     background-color: rgb(240, 167, 240);
@@ -47,7 +45,8 @@ li {
     transition: all 0.5s ease;
 }
 li:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(71, 181, 255);
+    font-weight: bold;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);                                                                        
@@ -69,6 +68,7 @@ img {
     margin-top: 30px;
     font-size: 25px;
     font-weight: bold;
+    color: white;
 }
 .f {
     height: 150px;
